@@ -23,7 +23,7 @@ namespace Context
                 entity.Property(e => e.Password).HasMaxLength(15).IsUnicode(false);
                 entity.Property(e => e.Phone).HasMaxLength(10);
             });
-            OnModelCreating(modelBuilder); 
+            OnModelCreating(modelBuilder);
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

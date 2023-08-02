@@ -19,4 +19,4 @@ insert into Users (Name, Email, Password, Phone) values ('Nam3', 'name3@gmail.co
  
  Select * from Users
 
- 1234567890
+ 
